@@ -28,10 +28,13 @@
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
         <link href="assets/lib/hamburgers/dist/hamburgers.min.css" rel="stylesheet">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-        <link href="assets/lib/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+        <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+        <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
         <!-- Main stylesheet and color file-->
         <link href="assets/css/style.css" rel="stylesheet">
-        <link href="assets/css/custom.css" rel="stylesheet"> </head>
+        <link href="assets/css/custom.css" rel="stylesheet">
+         </head>
     <body class="body" data-spy="scroll" data-target=".inner-link" data-offset="60">
         <main>
             <style>
@@ -243,9 +246,16 @@
                     </nav>
                 </div>
             </div>
+        <script src="navbar.js"></script>
+        <script src="wttsp.js" defer></script>
+
             <div class="overflow-hidden" style="position: relative;bottom: 105px;">
-                <section class="text-center header py-0" data-zanim-lg='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll">
-                    <div class="background-holder" style="background-image:url(assets/images/wilderness-header.jpg);"> </div>
+                <section class="py-0 text-center header" data-zanim-lg='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll">
+                    <div class="background-holder overlay" style="background-image:url(assets/images/video.jpg);">
+                        <video autoplay="autoplay" loop="loop" muted="muted">
+                            <source src="assets/videos/projects.mp4" type="video/mp4" />
+                            <source src="assets/videos/video.webm" type="video/webm" /> </video>
+                    </div>
                     <!--/.background-holder-->
                     <div class="container">
                         <div class="row h-full align-items-center">
