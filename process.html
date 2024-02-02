@@ -64,16 +64,30 @@
                     }
                 }
             </style>
-            <div class="loading" id="preloader">
+              <div class="loading" id="preloader">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <div class="spinner">
-                        <svg class="preloader" viewbox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                            <circle class="length" fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
-                        </svg>
-                        <svg class="preloader" viewbox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                            <circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
-                        </svg>
-                    </div>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+                    <div id="lottie-animation" style="max-width: 100px;max-height: 100px;"></div>
+                    <script>
+                        // Get a reference to the container element
+                        var animationContainer = document.getElementById('lottie-animation');
+                    
+                        // Load the Lottie animation
+                        var animData = {
+                            container: animationContainer,
+                            renderer: 'svg',
+                            loop: true,
+                            autoplay: true,
+                            path: '/assets/images/Animation - 1706808317400.json' // Path to your Lottie JSON file
+                        };
+                    
+                        // Play the animation
+                        var anim = lottie.loadAnimation(animData);
+                    </script>
+                    
+
+                   
                     <div class="loader">
                         <div class="row text-center align-items-center justify-content-center h-100">
                             <div class="col-6">
@@ -247,7 +261,7 @@
         <script src="wttsp.js" defer></script>
             <div class="overflow-hidden" style="position: relative;bottom: 105px;">
                 <section class="py-0 text-center header" data-zanim-lg='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll">
-                    <div class="background-holder overlay" style="background-image:url(assets/images/video.jpg);">
+                    <div class="background-holder overlay">
                         <video autoplay="autoplay" loop="loop" muted="muted">
                             <source src="assets/videos/Process.mp4" type="video/mp4" />
                            <source src="assets/videos/Process.mp4" type="video/mp4" /></video>

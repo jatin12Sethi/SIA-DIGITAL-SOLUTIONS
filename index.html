@@ -79,14 +79,28 @@
             </style>
             <div class="loading" id="preloader">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <div class="spinner">
-                        <svg class="preloader" viewbox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                            <circle class="length" fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
-                        </svg>
-                        <svg class="preloader" viewbox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                            <circle fill="none" stroke-width="8" stroke-linecap="rou" cx="33" cy="33" r="28"></circle>
-                        </svg>
-                    </div>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+                    <div id="lottie-animation" style="max-width: 100px;max-height: 100px;"></div>
+                    <script>
+                        // Get a reference to the container element
+                        var animationContainer = document.getElementById('lottie-animation');
+                    
+                        // Load the Lottie animation
+                        var animData = {
+                            container: animationContainer,
+                            renderer: 'svg',
+                            loop: true,
+                            autoplay: true,
+                            path: '/assets/images/Animation - 1706811218774.json' // Path to your Lottie JSON file
+                        };
+                    
+                        // Play the animation
+                        var anim = lottie.loadAnimation(animData);
+                    </script>
+                    
+
+                   
                     <div class="loader">
                         <div class="row text-center align-items-center justify-content-center h-100">
                             <div class="col-6">
@@ -260,7 +274,7 @@
 
             <div class="overflow-hidden" style="position: relative;bottom: 105px;">
                 <section class="py-0 text-center header" data-zanim-lg='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll">
-                    <div class="background-holder overlay" style="background-image:url(assets/images/video.jpg);">
+                    <div class="background-holder overlay">
                         <video autoplay="autoplay" loop="loop" muted="muted">
                             <source src="assets/videos/Process.mp4" type="video/mp4" />
                             <source src="assets/videos/Process.mp4" type="video/mp4" /> </video>
@@ -293,10 +307,10 @@
                 </section>
                 <div id="target-down"></div>
             </div>
-            <section class="text-center">
+            <section class="text-center" >
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-9 col-xl-8">
+                        <div class="col-lg-9 col-xl-8" style="position: relative;bottom: 80px;">
                             <div class="overflow-hidden">
                                 <h3 data-zanim-xs='{"delay":0}' data-zanim-trigger="scroll">Our Clients</h3>
                             </div>
@@ -422,13 +436,13 @@
                 <!--/.container-->
             </section>
 
-            <section class="header text-center py-0" data-zanim-lg='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll">
-                <div class="background-holder" style="background-image:url(assets/images/maps3.png);"> </div>
+            <section class="header text-center py-0" style="height: 1000px;position: relative;bottom: 150px;" data-zanim-lg='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll">
+                <div class="background-holder" style="background-image:url(assets/images/maps3.png);background-position: 0%;"> </div>
                 <!--/.background-holder-->
                 <div class="container">
                     <div class="row align-items-center h-full">
                         <div class="col">
-                            <h5 class="color-blacl fs-0 fs-sm-1 mb-4" data-zanim-xs='{"delay":1.1}' data-zanim-trigger="scroll">Our Prime Work Locations</h5>
+                            <!-- <h5 class="color-blacl fs-0 fs-sm-1 mb-4" data-zanim-xs='{"delay":1.1}' data-zanim-trigger="scroll">Our Prime Work Locations</h5> -->
                             <h1 class="color-black fs-3 fs-sm-5 fw-700 ls text-uppercase overflow-hidden">
                                 <span class="d-block" data-zanim-xs='{"delay":1.2}' data-zanim-trigger="scroll"></span>
                                 <span class="d-block" data-zanim-xs='{"delay":1.3}' data-zanim-trigger="scroll"></span>
@@ -440,8 +454,8 @@
                                 <span class="px-2 color-white fs--1 d-inline-block">&#9679; </span>
                                 <a class="fw-500 fs-0 fs-sm-2 color-white" href="#">Spa</a>
                             </div> -->
-                            <div data-zanim-xs='{"delay":1.5}' data-zanim-trigger="scroll">
-                                <a class="btn btn-capsule btn-primary mt-5" href="venue.html" data-offset="84">Our Working Cluture</a>
+                            <div data-zanim-xs='{"delay":1.5}' data-zanim-trigger="scroll" style="position: relative;top: 650px;">
+                                <a class="btn btn-capsule btn-primary mt-5" href="venue.html"  data-offset="84">Our Working Cluture</a>
                             </div>
                         </div>
                         <a class="btn-down" href="#target-down" data-offset="84" data-zanim-xs='{"delay":2.3}' data-zanim-trigger="scroll"></a>
