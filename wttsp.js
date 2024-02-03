@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Create anchor element with WhatsApp API link
     var whatsappLink = document.createElement("a");
-    whatsappLink.href = "https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER_HERE";
+    whatsappLink.href = "https://api.whatsapp.com/send?phone=6397925988";
     whatsappLink.target = "_blank";
     whatsappLink.rel = "noopener noreferrer";
     
