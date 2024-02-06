@@ -34,24 +34,88 @@
     <body class="body" data-spy="scroll" data-target=".inner-link" data-offset="60">
         <main>
             <style>
-                @supports (-ms-ime-align:auto) {
-                    #preloader .spinner {
-                        display: none !important;
-                    }
-                    #preloader .loader {
-                        display: block !important;
-                    }
+            @supports (-ms-ime-align:auto) {
+                #preloader .spinner {
+                    display: none !important;
                 }
 
-               a{
-                    color: #fff !important;
-                    font-size: 16px;
+                #preloader .loader {
+                    display: block !important;
+                }
+            }
+
+            a {
+                color: #fff !important;
+                font-size: 16px;
+
+            }
+
+            .blue-color {
+                color: blue !important;
+            }
+
+
+            @supports (-ms-ime-align:auto) {
+                #preloader .spinner {
+                    display: none !important;
+                }
+
+                #preloader .loader {
+                    display: block !important;
+                }
+            }
+
+            a {
+                color: #fff !important;
+                font-size: 16px;
+
+            }
+
+            .blue-color {
+                color: blue !important;
+            }
+
+            @media screen and (max-width: 600px) {
+
+                .map {
+                    height: 130px !important;
+                }
+
+                .maps-btn {
+                    position: relative;
+                    bottom: 800px;
+                }
+
+                #nav-link-mob {
+                    position: relative;
+                    left: -7px;
+                    margin-bottom: 5px;
+                }
+
+                #contact-btn {
+                    position: relative;
+                    top: 5px;
+                }
+
+
+            }
+        </style>
+             <style>
+                
+                #contact-btn:hover{
+                    background-color: #082552 !important;
+                    color: white !important;
+                }
+                #contact-btn-p{
+                    color: #082552 !important;
+                    position: relative;
+                    top: 10px;
+                }
+                #contact-btn:hover #contact-btn-p{
                    
+                    color: white !important;
                 }
-
-                .blue-color {
-            color: blue !important;
-        }
+              
             </style>
             <style>
                 @media all and (-ms-high-contrast: none),

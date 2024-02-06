@@ -43,24 +43,88 @@
     <body class="body" data-spy="scroll" data-target=".inner-link" data-offset="60">
         <main>
             <style>
-                @supports (-ms-ime-align:auto) {
-                    #preloader .spinner {
-                        display: none !important;
-                    }
-                    #preloader .loader {
-                        display: block !important;
-                    }
+            @supports (-ms-ime-align:auto) {
+                #preloader .spinner {
+                    display: none !important;
                 }
 
-               a{
-                    color: #fff !important;
-                    font-size: 16px;
+                #preloader .loader {
+                    display: block !important;
+                }
+            }
+
+            a {
+                color: #fff !important;
+                font-size: 16px;
+
+            }
+
+            .blue-color {
+                color: blue !important;
+            }
+
+
+            @supports (-ms-ime-align:auto) {
+                #preloader .spinner {
+                    display: none !important;
+                }
+
+                #preloader .loader {
+                    display: block !important;
+                }
+            }
+
+            a {
+                color: #fff !important;
+                font-size: 16px;
+
+            }
+
+            .blue-color {
+                color: blue !important;
+            }
+
+            @media screen and (max-width: 600px) {
+
+                .map {
+                    height: 130px !important;
+                }
+
+                .maps-btn {
+                    position: relative;
+                    bottom: 800px;
+                }
+
+                #nav-link-mob {
+                    position: relative;
+                    left: -7px;
+                    margin-bottom: 5px;
+                }
+
+                #contact-btn {
+                    position: relative;
+                    top: 5px;
+                }
+
+
+            }
+        </style>
+             <style>
+                
+                #contact-btn:hover{
+                    background-color: #082552 !important;
+                    color: white !important;
+                }
+                #contact-btn-p{
+                    color: #082552 !important;
+                    position: relative;
+                    top: 10px;
+                }
+                #contact-btn:hover #contact-btn-p{
                    
+                    color: white !important;
                 }
-
-                .blue-color {
-            color: blue !important;
-        }
+              
             </style>
             <style>
                 @media all and (-ms-high-contrast: none),
@@ -122,26 +186,27 @@
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav py-0 py-lg-2">
                                 <li>
-                                    <a href="javascript:void(0)" style="position: relative;right: 55px;text-transform:capitalize;">Our Expertise</a>
+                                    <a href="javascript:void(0)" style="position: relative;right: 55px;text-transform:capitalize;font-size:20px">Our Expertise</a>
                                     <ul class="dropdown">
                                         <li>
-                                            <a href="consulting.html" style="color:#082552 !important;text-transform: capitalize;font-size: 12px;">-- Consulting</a>
+                                            <a href="consulting.html" style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-- Consulting</a>
                                         </li>
                                         <li>
-                                            <a href="webconsulting.html" style="color:#082552 !important;text-transform: capitalize;font-size: 12px;">-- Web Development</a>
+                                            <a href="webconsulting.html" style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-- Web Development</a>
                                         </li>
                                         <li>
-                                            <a href="csdev.html" style="color:#082552 !important;text-transform: capitalize;font-size: 12px;">-- Custom Software Development</a>
+                                            <a href="csdev.html" style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-- Custom Software Development</a>
                                         </li>
                                         <li>
-                                            <a href="webdesign.html" style="color:#082552 !important;text-transform: capitalize;font-size: 12px;">-- Web Design</a>
+                                            <a href="webdesign.html" style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-- Web Design</a>
                                         </li>
                                        
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="projects.html" style="position: relative;right: 55px;text-transform:capitalize;">Projects</a>
-                                    <!-- <ul class="dropdown text-left">
+                                <a href="projects.html"
+                                    style="position: relative;right: 55px;text-transform:capitalize;font-size:20px" id="nav-link-mob">Projects</a>
+                                <!-- <ul class="dropdown text-left">
                                         <li>
                                             <a href="about.html">About</a>
                                         </li>
@@ -167,10 +232,12 @@
                                             <a href="page--rtl.html">RTL Page</a>
                                         </li>
                                     </ul> -->
-                                </li>
-                                <li>
-                                    <a href="process.html" style="position: relative;right: 55px;text-transform:capitalize;">Our Process</a>
-                                    <!-- <ul class="dropdown text-left">
+                            </li>
+                            <li>
+                                <a href="process.html"
+                                    style="position: relative;right: 55px;text-transform:capitalize;font-size:20px" id="nav-link-mob">Our
+                                    Process</a>
+                                <!-- <ul class="dropdown text-left">
                                         <li>
                                             <a href="backpack.html">Guided Backpacking tour</a>
                                         </li>
@@ -178,12 +245,13 @@
                                             <a href="herbal.html">Herbal Medicine 101</a>
                                         </li>
                                     </ul> -->
-                                </li>
-                            </ul>
-                            <ul class="navbar-nav ml-auto mr-0 py-0 py-lg-2">
-                                <li>
-                                    <a href="about.html" style="position: relative;right: 55px;text-transform:capitalize;">About</a>
-                                    <!-- <ul class="dropdown text-left">
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto mr-0 py-0 py-lg-2">
+                            <li>
+                                <a href="about.html"
+                                    style="position: relative;right: 55px;text-transform:capitalize;font-size:20px" id="nav-link-mob">About</a>
+                                <!-- <ul class="dropdown text-left">
                                         <li>
                                             <a href="blog.html">Blog Archive</a>
                                         </li>
@@ -191,10 +259,11 @@
                                             <a href="single-blog.html">Single Blog</a>
                                         </li>
                                     </ul> -->
-                                </li>
-                                <li>
-                                    <a href="blog.html" style="position: relative;right: 55px;text-transform:capitalize;">Blogs</a>
-                                    <!-- <ul class="dropdown dropdown-align-right text-left">
+                            </li>
+                            <li>
+                                <a href="blog.html"
+                                    style="position: relative;right: 55px;text-transform:capitalize;font-size:20px" id="nav-link-mob">Blogs</a>
+                                <!-- <ul class="dropdown dropdown-align-right text-left">
                                         <li>
                                             <a href="components-background.html">Background</a>
                                         </li>
@@ -247,10 +316,10 @@
                                             <a href="components-typography.html">Typography</a>
                                         </li>
                                     </ul> -->
-                                </li>
+                            </li>
                                 <li>
                                    
-                                    <a href="contact.html" style="position: relative;right: 55px;border: 2px solid white;background-color: white;color: #082552;position: relative;bottom: 10px;left: 5px;"><p  style="color: #082552;position: relative;top: 10px;text-transform: capitalize;">Contact</p></a>
+                             <a href="contact.html" id="contact-btn" style="position: relative;right: 35px;border: 2px solid white;background-color: white;color: #082552 !important;position: relative;bottom: 10px;left: 5px;padding: 10px;"><p id="contact-btn-p">Contact</p></a>
                                     <!-- <ul class="dropdown text-left">
                                         <li>
                                             <a href="contact.html">Contact</a>
