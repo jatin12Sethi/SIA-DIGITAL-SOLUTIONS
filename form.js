@@ -6,7 +6,7 @@ const embeddableContactForm = `
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact Form</title>
+<title>Contact Us Form</title>
 <style>
 body {
   font-family: Arial, sans-serif;
@@ -67,7 +67,7 @@ button[type="submit"]:hover {
 
 <div class="container">
   <form id="contactForm">
-    <h2>Contact Us</h2>
+    <h2>Contact Us Us</h2>
     <div class="input-group">
       <label for="name">Your Name</label>
       <input type="text" id="name" name="name" required>
