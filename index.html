@@ -47,6 +47,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/scss/map.scss">
+    <link rel="stylesheet" href="./assets/aboutsection.css">
 </head>
 
 <body class="body" data-spy="scroll" data-target=".inner-link" data-offset="60">
@@ -80,7 +81,7 @@
 
                 .maps-btn {
                     position: relative;
-                    bottom: 800px;
+                    bottom: 470px;
                 }
 
                 #nav-link-mob {
@@ -92,6 +93,16 @@
                 #contact-btn {
                     position: relative;
                     top: 5px;
+                }
+
+                .end-section{
+                    margin-top: -130px !important;
+                }
+                #our-clients {
+                    margin-top: -60px !important;
+                }
+                #below-our-clients {
+                    margin-top: -80px !important;
                 }
 
 
@@ -126,7 +137,11 @@
                 }
             }
         </style>
+
        
+
+        
+
         <div class="loading" id="preloader">
             <div class="h-100 d-flex align-items-center justify-content-center">
 
@@ -346,6 +361,7 @@
         </div>
         <script src="navbar.js"></script>
         <script src="wttsp.js" defer></script>
+        <script src="./assets/js/num.js" defer></script>
 
         <div class="overflow-hidden" style="position: relative;bottom: 105px;">
             <section class="py-0 text-center header" data-zanim-lg='{"delay":0,"animation":"zoom-out"}'
@@ -392,15 +408,16 @@
             </section>
             <div id="target-down"></div>
         </div>
-        <section class="text-center">
+        <section class="text-center" id="our-clients" style="margin-top: -100px;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9 col-xl-8" style="position: relative;bottom: 80px;">
                         <div class="overflow-hidden">
                             <h3 data-zanim-xs='{"delay":0}' data-zanim-trigger="scroll">Our Clients</h3>
+                            <p class="d-inline-block mb-0" style="font-size: 25px;color: black;">Look at the staggering list of clients that trust SIA DIGITAL</p>
                         </div>
-                        <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" />
-                        <div class="owl-carousel owl-theme owl-nav-outer owl-dot-round mt-3 mt-lg-5"
+                        <!-- <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" /> -->
+                        <div class="owl-carousel owl-theme owl-nav-outer owl-dot-round mt-0 mt-lg-5"
                             data-options='{"loop":true,"autoplay":true,"touchDrag":true,"responsiveClass":true,"slideBy":2,"responsive":{"0":{"items":2},"768":{"items":3},"1200":{"items":4}},"dots":true}'>
                             <div class="item mx-2 border border-color-8 radius-secondary mb-4">
                                 <img class="radius-secondary overflow-hidden"
@@ -441,7 +458,9 @@
             <!--/.container-->
         </section>
 
-        <section class="overflow-hidden text-center py-9" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+   
+
+        <section class="overflow-hidden text-center py-9" id="below-our-clients" data-zanim-timeline="{}" data-zanim-trigger="scroll" style="margin-top: -150px;">
             <div class="background-holder overlay parallax"
                 style="background-image:url(assets/images/about_banner.png);" data-rellax-percentage="0.5"> </div>
             <!--/.background-holder-->
@@ -465,7 +484,45 @@
             </div>
             <!--/.container-->
         </section>
+        <section class="content1">
+            <div id="banner"><img src="./assets/images/CONNECT.png" alt=""></div>
+            <h1>This Is A <span>Headline</span></h1>
+            <p id="p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed amet alias id soluta dolor quas
+                eaque
+                ducimus quos consequuntur quaerat nulla iste eligendi ea, beatae reiciendis nesciunt repellendus!
+                Facere,
+                eum.</p>
+            <div id="subhead1">
+                <span class="num" data-val="75">0</span>
+                <span class="num-text" id="num-text1">M+</span>
+                <span class="text">Annual Sales</span>
+            </div>
 
+            <div id="subhead2">
+                <span class="num" data-val="4">0</span>
+                <span class="num-text" id="dot">.</span>
+                <span class="num" id="eight" data-val="8">0</span>
+                <span class="num-text" id="num-text2" id="plus">+</span>
+                <span class="text" id="text2">User Rating</span>
+            </div>
+
+            <div id="subhead3">
+                <span class="num" data-val="100">0</span>
+                <span class="num-text" id="num-text3">%</span>
+                <span class="text" id="text3">Customer Satisfaction</span>
+            </div>
+            <div id="subhead4">
+                <span class="num2" data-val="2400">0</span>
+                <span class="num-text" id="num-text4">+</span>
+                <span class="text" id="text4">Customers</span>
+            </div>
+            <p id="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim distinctio veritatis ea ex
+                vero
+                similique explicabo quia a soluta consectetur aperiam nam consequuntur sequi incidunt, assumenda ullam.
+                Odio, ratione.</p>
+
+
+        </section>
         <section class="pt-8 text-center">
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-start">
@@ -519,7 +576,8 @@
                         <img class="radius-secondary mb-5" src="assets/images/success03.svg" alt="" />
                         <div>
                             <a href="#">
-                                <h5 class="fw-600 mb-0">Bangkok panelist event with the thailand BOT and SEEFAH chairman/CEO -  navigating success : lessons from the top</h5>
+                                <h5 class="fw-600 mb-0">Bangkok panelist event with the thailand BOT and SEEFAH
+                                    chairman/CEO - navigating success : lessons from the top</h5>
                             </a>
                             <!-- <a href="#">
                                 <h6 class="fs-0 color-8 mt-2">may 2018</h6>
@@ -537,10 +595,10 @@
             <!--/.container-->
         </section>
 
-        <section class="header text-center py-0 map" style="height: 1000px;position: relative;bottom: 150px;"
+        <section class="header text-center py-0 map" style="height:500px;position: relative;bottom: 150px;"
             data-zanim-lg='{"delay":0,"animation":"zoom-out"}' data-zanim-trigger="scroll">
             <div class="background-holder">
-                <img src="assets/images/maps3.png" alt="">
+                <img src="assets/images/Worldmap.webp" alt="">
             </div>
 
             <!--/.background-holder-->
@@ -560,14 +618,13 @@
                                 <a class="fw-500 fs-0 fs-sm-2 color-white" href="#">Spa</a>
                             </div> -->
                         <div data-zanim-xs='{"delay":1.5}' data-zanim-trigger="scroll"
-                            style="position: relative;top: 450px;">
+                            style="position: relative;top: 250px;">
                             <a class="btn btn-capsule btn-primary mt-5 maps-btn" href="venue.html" data-offset="84">Our
                                 Working
                                 Cluture</a>
                         </div>
                     </div>
-                    <a class="btn-down" href="#target-down" data-offset="84" data-zanim-xs='{"delay":2.3}'
-                        data-zanim-trigger="scroll"></a>
+
                 </div>
                 <!--/.row-->
             </div>
@@ -657,18 +714,86 @@
             <!--/.container-->
         </section>
 
-        <section class="text-center">
+        <section class="pt-0 text-center">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-start">
+                    <div class="col-12 mb-3 mb-sm-5 text-center">
+                        <h3>Our Success Stories</h3>
+                        <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" /> </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4">
+                        <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary" src="assets/images/retreats-3.jpg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img class="radius-secondary" src="assets/images/retreats-4.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <h5 class="fw-600 mb-0">Digital Marketing </h5>
+                            </a>
+                            <a href="#">
+                                <h6 class="fs-0 color-8 mt-2">march 2018</h6>
+                            </a>
+                            <p class="px-2">Always control what goes inside. Just balance your mind and body with Yoga. Create the healthy living for yourself.</p>
+                            <a class="btn btn-link fs--1" href="#">Learn more
+                                <span class="far fa-angle-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-md-0">
+                        <img class="radius-secondary mb-5" src="assets/images/retreats-2.jpg" alt="" />
+                        <div>
+                            <a href="#">
+                                <h5 class="fw-600 mb-0">Social Media Management</h5>
+                            </a>
+                            <a href="#">
+                                <h6 class="fs-0 color-8 mt-2">April 2018</h6>
+                            </a>
+                            <p class="px-2">The practice of naturopathic medicine includes modern, traditional, scientific, and empirical methods. Come for a healthy life.</p>
+                            <a class="btn btn-link fs--1" href="#">Learn more
+                                <span class="far fa-angle-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
+                        <img class="radius-secondary mb-5" src="assets/images/retreats-1.jpg" alt="" />
+                        <div>
+                            <a href="#">
+                                <h5 class="fw-600 mb-0">Branding and Identity</h5>
+                            </a>
+                            <a href="#">
+                                <h6 class="fs-0 color-8 mt-2">may 2018</h6>
+                            </a>
+                            <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take the challange and refresh your mind in the sea.</p>
+                            <a class="btn btn-link fs--1" href="#">Learn more
+                                <span class="far fa-angle-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+
+        
+
+        <section class="text-center end-section" style="margin-top: -170px;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="border border-color-9 p-3 p-sm-6 radius-secondary">
                             <h4>
-                                <span class="d-block">Bible Verse </span>
-                                <span class="d-block">Romans 15:13</span>
+                                <span class="d-block" style="font-size: 42px;">Our Vision</span>
+
                             </h4>
-                            <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" />
-                            <p class="d-inline-block mb-0">May the God of hope fill you with all joy and peace as you
-                                trust in him, so that you may overflow with hope by the power of the Holy Spirit.</p>
+                            <!-- <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" /> -->
+                            <p class="d-inline-block mb-0" style="font-size: 25px;color: black;">To be a driving force
+                                in promoting digitalisation of
+                                companies and become a part
+                                of global digitalisation.</p>
                         </div>
                     </div>
                 </div>
