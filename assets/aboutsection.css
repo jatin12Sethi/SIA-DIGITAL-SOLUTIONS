@@ -104,7 +104,7 @@ styles for the number animation section
 
 .num {
     font-size: clamp(25px, 1vw, 28px);
-    color: #0f1337;
+    color: #0a2d63;
     font-weight: 700;
     transition: 0.8s;
     width: 50%;
@@ -114,7 +114,7 @@ styles for the number animation section
 
 .num2 {
     font-size: clamp(25px, 1vw, 28px);
-    color: #131422;
+    color: #0a2d63;
     font-weight: 700;
     transition: 0.8s;
     width: 50%;
@@ -124,7 +124,7 @@ styles for the number animation section
 
 .num-text {
     font-size: clamp(25px, 1vw, 28px);
-    color: #131422;
+    color: #0a2d63;
     font-weight: 700;
     width: 50%;
 }
@@ -140,7 +140,7 @@ styles for the number animation section
     font-size: clamp(22px, 1vw, 28px);
     grid-column: 1/3;
     font-size: clamp(13px, 1vw, 16px);
-    color: black;
+    color: #0a2d63;
     font-weight: 700;
     position: relative;
     bottom: 22%;
@@ -243,7 +243,8 @@ styles for the number animation section
     }
 
     #p-1 {
-        font-weight: 500;
+        color: black;
+        font-weight: 800;
         line-height: 25px;
         position: relative;
         left: 12px;
@@ -253,6 +254,7 @@ styles for the number animation section
     }
 
     #p-2 {
+        color: black;
         font-weight: 500;
         line-height: 25px;
         position: relative;
