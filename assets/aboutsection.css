@@ -6,11 +6,12 @@ styles for the number animation section
 
 */
 .content1 {
-    height: 90vh;
+    max-width: 90vw;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    padding: 30px 20px 10px 0px;
+    /* padding: 30px 20px 10px 0px; */
     font-family: "Montserrat", sans-serif;
     font-size: clamp(8px, 1vw, 20px);
     margin-top: 00px;
@@ -23,10 +24,10 @@ styles for the number animation section
 
 #banner {
     grid-column: 1/9;
-    grid-row: 1/9;
+    grid-row: 1/13;
     position: relative;
-    left: 90px;
-    top: 95px;
+    left: 80px;
+    top: 5px;
 }
 
 #banner img {
@@ -37,9 +38,9 @@ styles for the number animation section
 
 .content1 h1 {
     text-align: center;
-    font-size: clamp(25px, 4.1vw, 80px);
+    font-size: 46px;
     grid-column: 5/9;
-    grid-row: 3/4;
+    grid-row: 1/4;
 }
 
 .content1 h1 span {
@@ -53,7 +54,8 @@ styles for the number animation section
     left: 16%;
     margin: auto;
     grid-column: 5/8;
-    grid-row: 4/6;
+    grid-row: 3/6;
+    text-align: justify;
 }
 
 #p-2 {
@@ -63,7 +65,8 @@ styles for the number animation section
     left: 16%;
     margin: auto;
     grid-column: 5/8;
-    grid-row: 10/12;
+    text-align: justify;
+    grid-row: 6/9;
 }
 
 #subhead1 {
