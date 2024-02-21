@@ -48,7 +48,7 @@ styles for the number animation section
 }
 
 #p-1 {
-    font-weight: 500;
+    font-weight: 530;
     line-height: 25px;
     position: relative;
     left: 16%;
@@ -56,6 +56,7 @@ styles for the number animation section
     grid-column: 5/8;
     grid-row: 3/6;
     text-align: justify;
+    
 }
 
 #p-2 {
@@ -67,6 +68,16 @@ styles for the number animation section
     grid-column: 5/8;
     text-align: justify;
     grid-row: 6/9;
+}
+#p-3 {
+    font-weight: 500;
+    line-height: 25px;
+    position: relative;
+    left: 16%;
+    margin: auto;
+    grid-column: 5/8;
+    text-align: justify;
+    grid-row: 9/12;
 }
 
 #subhead1 {
