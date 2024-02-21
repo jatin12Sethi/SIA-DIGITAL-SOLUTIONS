@@ -69,16 +69,7 @@ styles for the number animation section
     text-align: justify;
     grid-row: 9/12;
 }
-#p-3 {
-    font-weight: 500;
-    line-height: 25px;
-    position: relative;
-    left: 16%;
-    margin: auto;
-    grid-column: 5/8;
-    text-align: justify;
-    grid-row: 6/12;
-}
+
 
 #subhead1 {
     grid-column: 5/7;
@@ -116,32 +107,10 @@ styles for the number animation section
     top: 40%;
 }
 
-.num {
-    font-size: clamp(25px, 1vw, 28px);
-    color: #0a2d63;
-    font-weight: 700;
-    transition: 0.8s;
-    width: 50%;
-    position: relative;
-    top: 5px;
-}
 
-.num2 {
-    font-size: clamp(25px, 1vw, 28px);
-    color: #0a2d63;
-    font-weight: 700;
-    transition: 0.8s;
-    width: 50%;
-    position: relative;
-    top: 5px;
-}
 
-.num-text {
-    font-size: clamp(25px, 1vw, 28px);
-    color: #0a2d63;
-    font-weight: 700;
-    width: 50%;
-}
+
+
 
 .num-text {
     font-size: clamp(25px, 1vw, 28px);
@@ -191,25 +160,8 @@ styles for the number animation section
     bottom: 50px;
 }
 
-#num-text3 {
-    position: relative;
-    left: 45px;
-    bottom: 29px;
-}
 
-#text3 {
-    position: relative;
-}
 
-#num-text4 {
-    position: relative;
-    left: 65px;
-    bottom: 29px;
-}
-
-#text4 {
-    position: relative;
-}
 
 @media screen and (max-width: 768px) {
 
