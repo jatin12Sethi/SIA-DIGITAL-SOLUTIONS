@@ -31,6 +31,10 @@ function createNavbar(parentId) {
         /* Navbar Styles */
         .znav-white {
             transition: background-color 0.3s ease-in-out;
+            max-height: 99px;
+           
+          
+            
         }
 
         .blue-color {
@@ -39,11 +43,15 @@ function createNavbar(parentId) {
 
         .znav-white.scrolled {
             background-color: #082552 !important;
+            box-shadow: 0 0 30px rgba(0, 0, 0);
+            
+           
         }
 
         /* Hide scrollbar */
         body::-webkit-scrollbar {
             display: none;
+           
         }
 
         /* Hide scrollbar for IE, Edge and Firefox */
@@ -56,7 +64,7 @@ function createNavbar(parentId) {
 
     // Navbar Container
     var navbarContainer = createElement('div', 'znav-white znav-container znav-fixed w-100 sticky-top', parentElement);
-    var container = createElement('div', 'container py-lg-4', navbarContainer);
+    var container = createElement('div', 'container py-lg-2', navbarContainer);
     
     // Navbar
     var nav = createElement('nav', 'navbar navbar-expand-lg', container);

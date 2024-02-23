@@ -263,6 +263,7 @@ p.lead {
   padding-right: 0;
   padding-left: 0;
   line-height: 1.5;
+ 
 }
 
 .znav-container .navbar a.navbar-brand {
@@ -363,6 +364,7 @@ p.lead {
   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
   -webkit-transform: translate3d(10px, 7px, 0) rotate(-45deg);
   transform: translate3d(10px, 7px, 0) rotate(-45deg);
+ 
 }
 
 @media (min-width: 62em) {
@@ -392,6 +394,7 @@ p.lead {
   right: 0;
   min-width: 160px;
   padding: 0.4rem 0;
+  box-shadow: 0 0 30px #000000;
 }
 
 .znav-container .has-megamenu > a {
@@ -526,6 +529,7 @@ p.lead {
 
 .znav-container {
   background-color: #0c151a;
+  
 }
 
 .znav-container hr {
@@ -8748,7 +8752,7 @@ hr {
 @media (min-width: 62em) {
   .absolute-lg-centered {
     right: 50%;
-    top: 50%;
+    top: 45%;
     -webkit-transform: translateX(50%) translateY(-50%);
     -ms-transform: translateX(50%) translateY(-50%);
     transform: translateX(50%) translateY(-50%);
