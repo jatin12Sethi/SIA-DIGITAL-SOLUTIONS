@@ -43,7 +43,7 @@ function createNavbar(parentId) {
 
         .znav-white.scrolled {
             background-color: #082552 !important;
-            box-shadow: 0 0 30px rgba(0, 0, 0);
+            box-shadow: 0 0 30px rgba(0, 0, 0) !important;
             
            
         }
