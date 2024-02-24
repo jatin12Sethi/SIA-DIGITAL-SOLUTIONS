@@ -43,7 +43,7 @@ function createNavbar(parentId) {
 
         .znav-white.scrolled {
             background-color: #082552 !important;
-            box-shadow: 0 0 50px rgba(0, 0, 0);
+            box-shadow: 0 0 30px rgba(0, 0, 0);
             
            
         }
@@ -92,7 +92,7 @@ function createNavbar(parentId) {
     // Navbar Collapse
     var collapseDiv = createElement('div', 'collapse navbar-collapse', nav);
     collapseDiv.id = 'navbarNavDropdown';
-    var navbarNav = createElement('ul', 'navbar-nav py-0 py-lg-2', collapseDiv);
+    var navbarNav = createElement('ul', 'navbar-nav py-0 py-lg-4', collapseDiv);
     
     // Navbar items (you can add your menu items here)
     var navItems = ['Our Expertise', 'Projects', 'Our Process', 'About', 'Contact', 'Blogs'];
