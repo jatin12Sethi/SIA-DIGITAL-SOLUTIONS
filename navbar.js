@@ -59,6 +59,45 @@ function createNavbar(parentId) {
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
         }
+
+        @media (max-width: 991px) {
+
+            .znav-white {
+                overflow: hidden;
+                max-width: 100%;
+                transition: background-color 0.3s ease-in-out;
+                max-height: none;
+                background-color: #082552 !important;
+
+              
+                
+            }
+    
+            .blue-color {
+                color: blue !important;
+            }
+    
+            .znav-white.scrolled {
+                background-color: #082552 !important;
+                box-shadow: 0 0 30px rgba(0, 0, 0) !important;
+                
+               
+            }
+    
+            /* Hide scrollbar */
+            body::-webkit-scrollbar {
+                display: none;
+               
+            }
+    
+            /* Hide scrollbar for IE, Edge and Firefox */
+            body {
+                -ms-overflow-style: none; /* IE and Edge */
+                scrollbar-width: none; /* Firefox */
+            }
+
+
+        }
     `;
     document.head.appendChild(style);
 

@@ -93,8 +93,37 @@
                     top: 5px;
                 }
 
+                #expertiseBannerBtn {
+
+
+                    font-size: xx-small;
+                    color: white;
+                    width: 100%;
+
+                }
+
+                #expertiseBannerBtnP {
+                    width: 100%;
+
+
+                    font-size: xx-small;
+                    color: white;
+                    position: relative;
+                    right: 32px;
+                    top: 10px;
+
+                }
+
 
             }
+            #expertiseBannerBtnP {
+                   
+                    color: white;
+                    position: relative;
+                  
+                    top: 10px;
+
+                }
         </style>
         <style>
             #contact-btn:hover {
@@ -159,7 +188,7 @@
             </div>
         </div>
         <div class="znav-white white-def znav-container znav-fixed w-100 sticky-top" id="znav-container"
-            style="background-color: transparent;  height:16%">
+            style="background-color: transparent;">
             <div class="container py-lg-2">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand overflow-hidden pos-lg-absolute absolute-lg-centered" href="index.html">
@@ -176,35 +205,35 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav py-0 py-lg-2" style="position: relative;left: 100px;">
                             <li>
-                                <a href="expertise.html"
+                                <a href="expertise.html" id="ourExpertiseMobNav"
                                     style="position: relative;right: 55px;text-transform:capitalize;font-size:20px">Our
                                     Expertise</a>
-                                <ul class="dropdown" style="min-width: 350px;margin-left: -45px;">
+                                <ul class="dropdown" style="min-width: 350px;border-top: 3px solid black;margin-left: -45px;">
                                     <li>
                                         <a href="live3d.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Live 3D Websites</a>
                                     </li>
                                     <li>
                                         <a href="webconsulting.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Web Development</a>
                                     </li>
                                     <li>
                                         <a href="csdev.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Custom Software Development</a>
                                     </li>
                                     <li>
                                         <a href="webdesign.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Web Design</a>
                                     </li>
 
                                 </ul>
                             </li>
                             <li>
-                                
+
                                 <!-- <ul class="dropdown text-left">
                                         <li>
                                             <a href="about.html">About Us</a>
@@ -233,7 +262,7 @@
                                     </ul> -->
                             </li>
                             <li>
-                                <a href="process.html"
+                                <a href="process.html" id="processLinkMobNav"
                                     style="position: relative;right: 20px;text-transform:capitalize;font-size:20px"
                                     id="nav-link-mob">Our
                                     Process</a>
@@ -322,8 +351,8 @@
                             <li>
 
                                 <a href="contact.html" id="contact-btn"
-                                style="position: relative;right: 20px;border: 1px solid white;background-color: white;color: #082552 !important;position:relative;bottom: 5px;left: 5px;padding: 5px;">
-                                <p id="contact-btn-p">Contact Us</p>
+                                    style="position: relative;right: 20px;border: 1px solid white;background-color: white;color: #082552 !important;position:relative;bottom: 5px;left: 5px;padding: 5px;">
+                                    <p id="contact-btn-p">Contact Us</p>
                                 </a>
                                 <!-- <ul class="dropdown text-left">
                                         <li>
@@ -375,8 +404,11 @@
                                     style="text-decoration: none;">Custom Development</a>
                             </div>
                             <div data-zanim-xs='{"delay":1.5}' data-zanim-trigger="scroll">
-                                <a class="btn btn-capsule btn-primary mt-5" href="consulting.html" data-offset="84">Take a Free Consultation Call with Our Experts</a>
-                                    
+                                <a id="expertiseBannerBtn" class="btn btn-capsule btn-primary mt-5"
+                                    href="consulting.html" data-offset="84">
+                                    <p id="expertiseBannerBtnP">Take a Free Consultation Call with Our Experts</p>
+                            </a>
+
                             </div>
                         </div>
                         <a class="btn-down" href="#target-down" data-offset="84" data-zanim-xs='{"delay":2.3}'
@@ -386,355 +418,433 @@
                 </div>
                 <!--/.container-->
             </section>
-                    <!--/.container-->
-                </section>
-                <div id="target-down"></div>
+            <!--/.container-->
+            </section>
+            <div id="target-down"></div>
+        </div>
+        <section class="text-center" style="margin-top: -150px;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="border border-color-9 p-3 p-sm-6 radius-secondary">
+                            <h4>
+                                <span class="d-block">OUR VISION</span>
+
+
+
+                            </h4>
+                            <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" />
+
+                            <p class="d-inline-block mb-0" style="font-size: 25px;color: black;">To be a driving force
+                                in promoting digitalisation of
+                                companies and become a part
+                                of global digitalisation.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
             </div>
-            <section class="text-center" style="margin-top: -150px;">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10">
-                            <div class="border border-color-9 p-3 p-sm-6 radius-secondary">
-                                <h4>
-                                    <span class="d-block">OUR VISION</span>
+            <!--/.container-->
+        </section>
+        <section class="pt-0 text-center">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-start">
+                    <div class="col-12 mb-3 mb-sm-5 text-center">
+                        <h3>Our Expertise</h3>
+                        <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" />
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4">
+                        <div class="owl-carousel owl-theme mb-5"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://t3.ftcdn.net/jpg/03/17/83/00/360_F_317830022_t2c7ZhvWlp68eumsnI4q4Bnw267bPwB9.jpg"
+                                    alt="" height="235px" />
+                            </div>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?cs=srgb&dl=pexels-canva-studio-3194521.jpg&fm=jpg"
+                                    alt="" height="235px" />
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <h5 class="fw-600 mb-0">Digital Marketing </h5>
+                            </a>
 
-     
-                                   
-                                </h4>
-                                <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" />
-                               
-                                <p class="d-inline-block mb-0" style="font-size: 25px;color: black;">To be a driving force
-                                    in promoting digitalisation of
-                                    companies and become a part
-                                    of global digitalisation.</p>
-                            </div>
+                            <p class="px-2">Always control what goes inside. Just balance your mind and body with Yoga.
+                                Create the healthy living for yourself.</p>
+
                         </div>
                     </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </section>
-            <section class="pt-0 text-center">
-                <div class="container">
-                    <div class="row justify-content-center justify-content-lg-start">
-                        <div class="col-12 mb-3 mb-sm-5 text-center">
-                            <h3>Our Expertise</h3>
-                            <hr data-zanim-xs='{"delay":0,"animation":"hr-anim"}' data-zanim-trigger="scroll" /> </div>
-                        <div class="col-sm-8 col-md-6 col-xl-4">
-                            <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://t3.ftcdn.net/jpg/03/17/83/00/360_F_317830022_t2c7ZhvWlp68eumsnI4q4Bnw267bPwB9.jpg" alt="" height="235px" />
-                                </div>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?cs=srgb&dl=pexels-canva-studio-3194521.jpg&fm=jpg" alt="" height="235px" />
-                                </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-md-0">
+                        <div class="owl-carousel owl-theme mb-5"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://hotdogmarketing.net/wp-content/uploads/2021/11/110321-HDM-Social-Media-Marketing-02-1024x576.png"
+                                    alt="" height="235px" />
                             </div>
-                            <div>
-                                <a href="#">
-                                    <h5 class="fw-600 mb-0">Digital Marketing </h5>
-                                </a>
-                               
-                                <p class="px-2">Always control what goes inside. Just balance your mind and body with Yoga. Create the healthy living for yourself.</p>
-                                <a class="btn btn-link fs--1" href="#">Learn more
-                                    <span class="far fa-angle-right"></span>
-                                </a>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://martech.org/wp-content/uploads/2014/11/social-media-networks-icons-ss-1920.jpg"
+                                    alt="" height="235px" />
                             </div>
                         </div>
-                        <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-md-0">
-                            <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://hotdogmarketing.net/wp-content/uploads/2021/11/110321-HDM-Social-Media-Marketing-02-1024x576.png" alt="" height="235px" />
-                                </div>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://martech.org/wp-content/uploads/2014/11/social-media-networks-icons-ss-1920.jpg" alt="" height="235px" />
-                                </div>
-                            </div>
-                            <div>
-                                <a href="#">
-                                    <h5 class="fw-600 mb-0">Social Media Management</h5>
-                                </a>
-                                
-                                <p class="px-2">The practice of naturopathic medicine includes modern, traditional, scientific, and empirical methods. Come for a healthy life.</p>
-                                <a class="btn btn-link fs--1" href="#">Learn more
-                                    <span class="far fa-angle-right"></span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
-                            <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://graphicdesigneye.com/images/Shop-branding-design.jpg" alt="" height="235px" />
-                                </div>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://www.emotivebrand.com/wp-content/uploads/2016/09/Branding-101.jpg" alt="" height="235px" />
-                                </div>
-                            </div>
-                            <div>
-                                <a href="#">
-                                    <h5 class="fw-600 mb-0">Branding and Identity</h5>
-                                </a>
-                               
-                                <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take the challange and refresh your mind in the sea.</p>
-                                <a class="btn btn-link fs--1" href="#">Learn more
-                                    <span class="far fa-angle-right"></span>
-                                </a>
-                            </div>
-                        </div>
+                        <div>
+                            <a href="#">
+                                <h5 class="fw-600 mb-0">Social Media Management</h5>
+                            </a>
 
-                        <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
-                            <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/12843337/pexels-photo-12843337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" height="235px" />
-                                </div>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/19115133/pexels-photo-19115133/free-photo-of-a-photo-of-a-city-with-tall-buildings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" height="235px" />
-                                </div>
+                            <p class="px-2">The practice of naturopathic medicine includes modern, traditional,
+                                scientific, and empirical methods. Come for a healthy life.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
+                        <div class="owl-carousel owl-theme mb-5"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://graphicdesigneye.com/images/Shop-branding-design.jpg" alt=""
+                                    height="235px" />
                             </div>
-                            <div>
-                                <a href="live3d.html">
-                                    <h5 class="fw-600 mb-0">Live 3D Websites</h5>
-                                </a>
-                               
-                                <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take the challange and refresh your mind in the sea.</p>
-                                <a class="btn btn-link fs--1" href="contact.html">Learn more
-                                    <span class="far fa-angle-right"></span>
-                                </a>
-                            </div>
-                        </div><div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
-                            <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" height="235px" />
-                                </div>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/1181449/pexels-photo-1181449.jpeg" alt="" height="235px" />
-                                </div>
-                            </div>
-                            <div>
-                                <a href="webconsulting.html">
-                                    <h5 class="fw-600 mb-0">Web Development</h5>
-                                </a>
-                               
-                                <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take the challange and refresh your mind in the sea.</p>
-                                <a class="btn btn-link fs--1" href="#">Learn more
-                                    <span class="far fa-angle-right"></span>
-                                </a>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://www.emotivebrand.com/wp-content/uploads/2016/09/Branding-101.jpg"
+                                    alt="" height="235px" />
                             </div>
                         </div>
-                        <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
-                            <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/1111367/pexels-photo-1111367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" height="235px" />
-                                </div>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" height="235px" />
-                                </div>
+                        <div>
+                            <a href="#">
+                                <h5 class="fw-600 mb-0">Branding and Identity</h5>
+                            </a>
+
+                            <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take
+                                the challange and refresh your mind in the sea.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
+                        <div class="owl-carousel owl-theme mb-5"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/12843337/pexels-photo-12843337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" height="235px" />
                             </div>
-                            <div>
-                                <a href="webdesign.html">
-                                    <h5 class="fw-600 mb-0">Web Designs</h5>
-                                </a>
-                               
-                                <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take the challange and refresh your mind in the sea.</p>
-                                <a class="btn btn-link fs--1" href="#">Learn more
-                                    <span class="far fa-angle-right"></span>
-                                </a>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/19115133/pexels-photo-19115133/free-photo-of-a-photo-of-a-city-with-tall-buildings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" height="235px" />
                             </div>
                         </div>
-                        <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
-                            <div class="owl-carousel owl-theme mb-5" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/4709286/pexels-photo-4709286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" height="235px" />
-                                </div>
-                                <div class="item">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/4709287/pexels-photo-4709287.jpeg" alt="" height="235px" />
-                                </div>
+                        <div>
+                            <a href="live3d.html">
+                                <h5 class="fw-600 mb-0">Live 3D Websites</h5>
+                            </a>
+
+                            <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take
+                                the challange and refresh your mind in the sea.</p>
+                            <a class="btn btn-link fs--1" href="contact.html">Learn more
+                                <span class="far fa-angle-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
+                        <div class="owl-carousel owl-theme mb-5"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" height="235px" />
                             </div>
-                            <div>
-                                <a href="csdev.html">
-                                    <h5 class="fw-600 mb-0">Custom Software Development</h5>
-                                </a>
-                               
-                                <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take the challange and refresh your mind in the sea.</p>
-                                <a class="btn btn-link fs--1" href="#">Learn more
-                                    <span class="far fa-angle-right"></span>
-                                </a>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/1181449/pexels-photo-1181449.jpeg" alt=""
+                                    height="235px" />
                             </div>
                         </div>
+                        <div>
+                            <a href="webconsulting.html">
+                                <h5 class="fw-600 mb-0">Web Development</h5>
+                            </a>
+
+                            <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take
+                                the challange and refresh your mind in the sea.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
+                        <div class="owl-carousel owl-theme mb-5"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/1111367/pexels-photo-1111367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" height="235px" />
+                            </div>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" height="235px" />
+                            </div>
+                        </div>
+                        <div>
+                            <a href="webdesign.html">
+                                <h5 class="fw-600 mb-0">Web Designs</h5>
+                            </a>
+
+                            <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take
+                                the challange and refresh your mind in the sea.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
+                        <div class="owl-carousel owl-theme mb-5"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/4709286/pexels-photo-4709286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" height="235px" />
+                            </div>
+                            <div class="item">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/4709287/pexels-photo-4709287.jpeg" alt=""
+                                    height="235px" />
+                            </div>
+                        </div>
+                        <div>
+                            <a href="csdev.html">
+                                <h5 class="fw-600 mb-0">Custom Software Development</h5>
+                            </a>
+
+                            <p class="px-2">Free your inner adventure with guided surfing trip. Enjoy the thrill, take
+                                the challange and refresh your mind in the sea.</p>
+
+                        </div>
+                    </div>
 
 
 
-                    </div>
-                    <!--/.row-->
                 </div>
-                <!--/.container-->
-            </section>
-            <section class="overflow-hidden text-center py-9">
-                <div class="background-holder overlay parallax" style="background-image:url(https://images.pexels.com/photos/7310202/pexels-photo-7310202.jpeg);" data-rellax-percentage="0.5"> </div>
-                <!--/.background-holder-->
-                <div class="container">
-                    <div class="row align-items-center justify-content-center justify-content-lg-end" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="col-md-9 col-lg-7">
-                            <div class="overflow-hidden">
-                                <h2 class="fs-md-5 fw-700 color-white" data-zanim-xs='{"delay":0}'>Digital Appearance</h2>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="lead color-white px-lg-5" data-zanim-xs='{"delay":0.1}'>We offer the ideal atmosphere for relaxation and personal care. A real treat for the body and mind that will help you to balance the effects of work and stress.</p>
-                            </div>
-                            <div data-zanim-xs='{"delay":0.2}'>
-                                <a class="btn btn-capsule btn-outline-white mt-4" href="webdesign.html">learn more</a>
-                            </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="overflow-hidden text-center py-9" style="position: relative;bottom: 50px;">
+            <div class="background-holder overlay parallax"
+                style="background-image:url(https://images.pexels.com/photos/7310202/pexels-photo-7310202.jpeg);"
+                data-rellax-percentage="0.5"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row align-items-center justify-content-center justify-content-lg-end"
+                    data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col-md-9 col-lg-7">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-md-5 fw-700 color-white" data-zanim-xs='{"delay":0}'>Digital Appearance</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="lead color-white px-lg-5" data-zanim-xs='{"delay":0.1}'>We offer the ideal
+                                atmosphere for relaxation and personal care. A real treat for the body and mind that
+                                will help you to balance the effects of work and stress.</p>
+                        </div>
+                        <div data-zanim-xs='{"delay":0.2}'>
+                            <a class="btn btn-capsule btn-outline-white mt-4" href="webdesign.html">learn more</a>
                         </div>
                     </div>
-                    <!--/.row-->
                 </div>
-                <!--/.container-->
-            </section>
-            <section class="py-lg-9 overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 order-md-2">
-                            <div class="owl-carousel owl-theme mt-3 mt-lg-0" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/4960396/pexels-photo-4960396.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" />
-                                </div>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/12935100/pexels-photo-12935100.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" />
-                                </div>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/8970656/pexels-photo-8970656.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" />
-                                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="py-lg-9 overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-2">
+                        <div class="owl-carousel owl-theme mt-3 mt-lg-0"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/4960396/pexels-photo-4960396.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                    alt="" />
                             </div>
-                        </div>
-                        <div class="col-md-6 pr-lg-8 mt-5 mt-md-0">
-                            <div class="overflow-hidden">
-                                <h2 class="fs-3 fs-lg-3" data-zanim-xs='{"delay":0}'>Explore Our Tech Stack</h2>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/12935100/pexels-photo-12935100.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                    alt="" />
                             </div>
-                     
-                                <p data-zanim-xs='{"delay":0.2}'>Every now and then go away, have a little relaxation, for when you come back to your work your judgment will be surer. Go some distance away because then the work appears smaller and more of it can be taken in at a glance
-                                    and a lack of harmony and proportion is more readily seen.</p>
-                           
-                            <div data-zanim-xs='{"delay":1.0}' data-zanim-trigger="scroll">
-                                <a class="btn btn-capsule btn-primary mt-5" href="consulting.html" data-offset="84">Enquire Us</a>
-                
-                            </div>
-                            
-                                
-                          
-                        </div>
-                    </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </section>
-            <section class="overflow-hidden text-center py-9">
-                <div class="background-holder overlay parallax" style="background-image:url(https://images.pexels.com/photos/3760613/pexels-photo-3760613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);" data-rellax-percentage="0.5"> </div>
-                <!--/.background-holder-->
-                <div class="container">
-                    <div class="row align-items-center justify-content-center justify-content-lg-end" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="col-md-9 col-lg-7">
-                         
-                                <h4 class="fs-md-5 fw-700 color-white" data-zanim-xs='{"delay":0}'><span>500+ Our Happy Customers</span></h4>
-                          
-                   
-                                <p class="lead color-white px-lg-5" data-zanim-xs='{"delay":0.1}'>When all the world appears to be in a tumult, and nature itself is feeling the assault of climate change, the seasons retain their essential rhythm.</p>
-                           
-                            <div data-zanim-xs='{"delay":0.2}'>
-                                <a class="btn btn-capsule btn-outline-white mt-4" href="about.html">learn more</a>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/8970656/pexels-photo-8970656.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                    alt="" />
                             </div>
                         </div>
                     </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </section>
-            <section class="py-lg-9 overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 order-md-2">
-                            <div class="owl-carousel owl-theme mt-3 mt-lg-0" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
-                                </div>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
-                                </div>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
-                                </div>
-                            </div>
+                    <div class="col-md-6 pr-lg-8 mt-5 mt-md-0">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-3 fs-lg-3" data-zanim-xs='{"delay":0}'>Explore Our Tech Stack</h2>
                         </div>
-                        <div class="col-md-6 pr-lg-8 mt-5 mt-md-0">
-                            <div class="overflow-hidden">
-                                <h2 class="fs-3 fs-lg-3" data-zanim-xs='{"delay":0}'>Why Choose Us?</h2>
+
+                        <p data-zanim-xs='{"delay":0.2}'>Every now and then go away, have a little relaxation, for when
+                            you come back to your work your judgment will be surer. Go some distance away because then
+                            the work appears smaller and more of it can be taken in at a glance
+                            and a lack of harmony and proportion is more readily seen.</p>
+
+                        <div data-zanim-xs='{"delay":1.0}' data-zanim-trigger="scroll">
+                            <a class="btn btn-capsule btn-primary mt-5" href="consulting.html" data-offset="84">Enquire
+                                Us</a>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="overflow-hidden text-center py-9">
+            <div class="background-holder overlay parallax"
+                style="background-image:url(https://images.pexels.com/photos/3760613/pexels-photo-3760613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"
+                data-rellax-percentage="0.5"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row align-items-center justify-content-center justify-content-lg-end"
+                    data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col-md-9 col-lg-7">
+
+                        <h4 class="fs-md-5 fw-700 color-white" data-zanim-xs='{"delay":0}'><span>500+ Our Happy
+                                Customers</span></h4>
+
+
+                        <p class="lead color-white px-lg-5" data-zanim-xs='{"delay":0.1}'>When all the world appears to
+                            be in a tumult, and nature itself is feeling the assault of climate change, the seasons
+                            retain their essential rhythm.</p>
+
+                        <div data-zanim-xs='{"delay":0.2}'>
+                            <a class="btn btn-capsule btn-outline-white mt-4" href="about.html">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="py-lg-9 overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-2">
+                        <div class="owl-carousel owl-theme mt-3 mt-lg-0"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" />
                             </div>
-                            <div class="overflow-hidden">
-                                <p data-zanim-xs='{"delay":0.2}'>Nature has always cared for us. So why not taking that care? Come to Nirvana and taste our organic cuisine today. Organic foods may have higher nutritional value than conventional food that help building your good health.
-                                    </p>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" />
                             </div>
-                            <div data-zanim-xs='{"delay":0.3}'>
-                                <a class="btn btn-capsule btn-primary mt-5" href="consulting.html" data-offset="84">Enquire Us</a>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" />
                             </div>
                         </div>
                     </div>
-                    <!--/.row-->
+                    <div class="col-md-6 pr-lg-8 mt-5 mt-md-0">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-3 fs-lg-3" data-zanim-xs='{"delay":0}'>Why Choose Us?</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p data-zanim-xs='{"delay":0.2}'>Nature has always cared for us. So why not taking that
+                                care? Come to Nirvana and taste our organic cuisine today. Organic foods may have higher
+                                nutritional value than conventional food that help building your good health.
+                            </p>
+                        </div>
+                        <div data-zanim-xs='{"delay":0.3}'>
+                            <a class="btn btn-capsule btn-primary mt-5" href="consulting.html" data-offset="84">Enquire
+                                Us</a>
+                        </div>
+                    </div>
                 </div>
-                <!--/.container-->
-            </section>
-            <section class="overflow-hidden text-center py-9" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                <div class="background-holder overlay parallax" style="background-image:url(https://images.pexels.com/photos/3830745/pexels-photo-3830745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);" data-rellax-percentage="0.5"> </div>
-                <!--/.background-holder-->
-                <div class="container">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-11 col-md-10 col-xl-9">
-                            <div class="overflow-hidden">
-                                <h1 class="fs-4 fs-md-5 color-white" data-zanim-xs='{"delay":0.1}'>Reserve Your Consultation</h1>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="overflow-hidden text-center py-9" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="background-holder overlay parallax"
+                style="background-image:url(https://images.pexels.com/photos/3830745/pexels-photo-3830745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);"
+                data-rellax-percentage="0.5"> </div>
+            <!--/.background-holder-->
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-11 col-md-10 col-xl-9">
+                        <div class="overflow-hidden">
+                            <h1 class="fs-4 fs-md-5 color-white" data-zanim-xs='{"delay":0.1}'>Reserve Your Consultation
+                            </h1>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="fw-700 px-lg-5 color-white" data-zanim-xs='{"delay":0.2}'>When all the world
+                                appears to be in a tumult, and nature itself is feeling the assault of climate change,
+                                the seasons retain their essential rhythm.</p>
+                        </div>
+                        <div data-zanim-xs='{"delay":0.3}'>
+                            <a class="btn btn-lg btn-capsule btn-outline-white mt-4" href="con">inquire</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <section class="py-lg-9 overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-2">
+                        <div class="owl-carousel owl-theme mt-3 mt-lg-0"
+                            data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/1454171/pexels-photo-1454171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" />
                             </div>
-                            <div class="overflow-hidden">
-                                <p class="fw-700 px-lg-5 color-white" data-zanim-xs='{"delay":0.2}'>When all the world appears to be in a tumult, and nature itself is feeling the assault of climate change, the seasons retain their essential rhythm.</p>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" />
                             </div>
-                            <div data-zanim-xs='{"delay":0.3}'>
-                                <a class="btn btn-lg btn-capsule btn-outline-white mt-4" href="con">inquire</a>
+                            <div class="item mx-2">
+                                <img class="radius-secondary"
+                                    src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                    alt="" />
                             </div>
                         </div>
                     </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </section>
-            <section class="py-lg-9 overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 order-md-2">
-                            <div class="owl-carousel owl-theme mt-3 mt-lg-0" data-options='{"loop":true,"autoplay":true,"touchDrag":true,"items":1,"nav":true,"dots":false,"animateOut":"fadeOut","autoplayHoverPause":true}'>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/1454171/pexels-photo-1454171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
-                                </div>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
-                                </div>
-                                <div class="item mx-2">
-                                    <img class="radius-secondary" src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
-                                </div>
-                            </div>
+                    <div class="col-md-6 pr-lg-8 mt-5 mt-md-0">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-3 fs-lg-3" data-zanim-xs='{"delay":0}'>Our Projects Gallery</h2>
                         </div>
-                        <div class="col-md-6 pr-lg-8 mt-5 mt-md-0">
-                            <div class="overflow-hidden">
-                                <h2 class="fs-3 fs-lg-3" data-zanim-xs='{"delay":0}'>Our Projects Gallery</h2>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p data-zanim-xs='{"delay":0.2}'>Nature has always cared for us. So why not taking that care? Come to Nirvana and taste our organic cuisine today. Organic foods may have higher nutritional value than conventional food that help building your good health.
-                                    </p>
-                            </div>
-                            <div data-zanim-xs='{"delay":0.3}'>
-                                <a class="btn btn-capsule btn-primary mt-5" href="consulting.html" data-offset="84">Enquire Us</a>
-                            </div>
+                        <div class="overflow-hidden">
+                            <p data-zanim-xs='{"delay":0.2}'>Nature has always cared for us. So why not taking that
+                                care? Come to Nirvana and taste our organic cuisine today. Organic foods may have higher
+                                nutritional value than conventional food that help building your good health.
+                            </p>
+                        </div>
+                        <div data-zanim-xs='{"delay":0.3}'>
+                            <a class="btn btn-capsule btn-primary mt-5" href="consulting.html" data-offset="84">Enquire
+                                Us</a>
                         </div>
                     </div>
-                    <!--/.row-->
                 </div>
-                <!--/.container-->
-            </section>
-            <!-- <section class="text-center">
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+        <!-- <section class="text-center">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-9 col-xl-8">
@@ -770,128 +880,130 @@
                             </div>
                         </div>
                     </div> -->
-                    <!--/.row-->
-                <!-- </div> -->
-                <!--/.container-->
-            </section>
-            <section class="background-primary text-center">
-                <div class="container">
-                    <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="col-12" data-zanim-lg='{"delay":0}'>
-                            <a class="color-white mx-3" href="about.html">About Us</a>
-                            <a class="color-white mx-3" href="contact.html">Connect</a>
-                            <a class="color-white mx-3" href="projects.html">Terms &amp; Our Milestones</a>
-                        </div>
-                        <div class="col-12 my-3" data-zanim-lg='{"delay":0.1}'>
-                            <img class="w-15" src="assets/images/SIA-BLACKLOGO.png" alt="" />
-                        </div>
-                        <div class="col-12" data-zanim-lg='{"delay":0.2}'>
-                            <p class="font-1 fs-0 color-white">
-                                <!-- <a class="color-white" href="tel:(212)123-4567">(212) 123-4567 </a> -->
-                                <span class="px-3 d-none d-md-inline-block">&#9679;</span>
-                                <br class="d-block d-md-none" />
-                                <span class="mt-4 mt-md-0">Gaysorn Tower, 127 Ratchadamri Rd, Lumphini, Pathum Wan, Bangkok
-                                    10330, Thailand</span>
-                                <span class="px-3 d-none d-md-inline-block">&#9679;</span>
-                                <br class="d-block d-md-none" />
-                                <a class="color-white mt-4 mt-md-0"
-                                    href="mailto:nirvana@abc.com">Customersupport@siadigitalsolution.com</a>
-                            </p>
-                        </div>
-                        </div>
-                        <div class="col-12" data-zanim-lg='{"delay":0.3}'>
-                            <form method="post">
-                                <div class="row align-items-center justify-content-center no-gutters mt-5">
-                                    <div class="col-6 col-md-5 px-2">
-                                        <input class="form-control" type="hidden" name="to" value="username@domain.extension" />
-                                        <input class="form-control border-color-white" type="text" placeholder="Enter Email Here" /> </div>
-                                    <div class="col-6 col-md-3 px-2">
-                                        <button class="btn btn-block btn-outline-white" type="submit">
-                                            <span>Submit</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-12" data-zanim-lg='{"delay":0.4}'>
-
-                            <h6 class="fw-600 color-7 mt-5">
-    
-                                <u>
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fab fa-facebook-f text-white"></i></a></li>
-                                        <li><a
-                                                href="https://www.instagram.com/siadigital_solution?igsh=MTd5cXFpODhjdzdkdg%3D%3D&utm_source=qr"><i
-                                                    class="fab fa-instagram text-white"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in text-white"></i></a></li>
-                                    </ul>
-                                    <div class="col-12" data-zanim-lg='{"delay":0.4}'>
-                                        <h6 class="fw-600 mt-5" style="color: #ffffff;">
-                                         Copyright @ 2024 © SIA DIGITAL SOLUTIONS
-                                        </h6>
-                                    </div>
-                                </u>
-    
-                            </h6>
-                        </div>
+        <!--/.row-->
+        <!-- </div> -->
+        <!--/.container-->
+        </section>
+        <section class="background-primary text-center">
+            <div class="container">
+                <div class="row" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col-12" data-zanim-lg='{"delay":0}'>
+                        <a class="color-white mx-3" href="about.html">About Us</a>
+                        <a class="color-white mx-3" href="contact.html">Connect</a>
+                        <a class="color-white mx-3" href="projects.html">Terms &amp; Our Milestones</a>
                     </div>
-                    <!--/.row-->
+                    <div class="col-12 my-3" data-zanim-lg='{"delay":0.1}'>
+                        <img class="w-15" src="assets/images/SIA-BLACKLOGO.png" alt="" />
+                    </div>
+                    <div class="col-12" data-zanim-lg='{"delay":0.2}'>
+                        <p class="font-1 fs-0 color-white">
+                            <!-- <a class="color-white" href="tel:(212)123-4567">(212) 123-4567 </a> -->
+                            <span class="px-3 d-none d-md-inline-block">&#9679;</span>
+                            <br class="d-block d-md-none" />
+                            <span class="mt-4 mt-md-0">Gaysorn Tower, 127 Ratchadamri Rd, Lumphini, Pathum Wan, Bangkok
+                                10330, Thailand</span>
+                            <span class="px-3 d-none d-md-inline-block">&#9679;</span>
+                            <br class="d-block d-md-none" />
+                            <a class="color-white mt-4 mt-md-0"
+                                href="mailto:nirvana@abc.com">Customersupport@siadigitalsolution.com</a>
+                        </p>
+                    </div>
                 </div>
-                <!--/.container-->
-            </section>
-        </main>
-        <!--  -->
-        <!--    JavaScripts-->
-        <!--    =============================================-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script src="assets/lib/jquery/dist/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="assets/js/config.js"></script>
-        <script src="assets/lib/CustomEase.min.js"></script>
-        <script src="assets/lib/gsap/src/minified/TweenMax.min.js"></script>
-        <script src="assets/lib/gsap/src/minified/TimelineMax.min.js"></script>
-        <script src="assets/lib/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
-        <script src="assets/js/zanimation.js"></script>
-        <script src="assets/lib/rellax/rellax.min.js"></script>
-        <script src="assets/lib/@fontawesome/js/fontawesome-all.min.js"></script>
-        <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min.js"></script>
-        <script src="assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics-->
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+                <div class="col-12" data-zanim-lg='{"delay":0.3}'>
+                    <form method="post">
+                        <div class="row align-items-center justify-content-center no-gutters mt-5">
+                            <div class="col-6 col-md-5 px-2">
+                                <input class="form-control" type="hidden" name="to" value="username@domain.extension" />
+                                <input class="form-control border-color-white" type="text"
+                                    placeholder="Enter Email Here" />
+                            </div>
+                            <div class="col-6 col-md-3 px-2">
+                                <button class="btn btn-block btn-outline-white" type="submit">
+                                    <span>Submit</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12" data-zanim-lg='{"delay":0.4}'>
 
-            function gtag()
-            {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'UA-76729372-9');
-        </script>
-        <!-- Hotjar Tracking Code for http://markup.themewagon.com/trynirvana-->
-        <script>
-            (function(h, o, t, j, a, r)
-            {
-                h.hj = h.hj || function()
-                {
-                    (h.hj.q = h.hj.q || []).push(arguments)
-                };
-                h._hjSettings = {
-                    hjid: 855955,
-                    hjsv: 6
-                };
-                a = o.getElementsByTagName('head')[0];
-                r = o.createElement('script');
-                r.async = 1;
-                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-        </script>
-        <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min.js"></script>
-        <script src="assets/lib/flexslider/jquery.flexslider-min.js"></script>
-        <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-        <script src="assets/js/core.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+                    <h6 class="fw-600 color-7 mt-5">
+
+                        <u>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fab fa-facebook-f text-white"></i></a></li>
+                                <li><a
+                                        href="https://www.instagram.com/siadigital_solution?igsh=MTd5cXFpODhjdzdkdg%3D%3D&utm_source=qr"><i
+                                            class="fab fa-instagram text-white"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in text-white"></i></a></li>
+                            </ul>
+                            <div class="col-12" data-zanim-lg='{"delay":0.4}'>
+                                <h6 class="fw-600 mt-5" style="color: #ffffff;">
+                                    Copyright @ 2024 © SIA DIGITAL SOLUTIONS
+                                </h6>
+                            </div>
+                        </u>
+
+                    </h6>
+                </div>
+            </div>
+            <!--/.row-->
+            </div>
+            <!--/.container-->
+        </section>
+    </main>
+    <!--  -->
+    <!--    JavaScripts-->
+    <!--    =============================================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="assets/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/lib/CustomEase.min.js"></script>
+    <script src="assets/lib/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="assets/lib/gsap/src/minified/TimelineMax.min.js"></script>
+    <script src="assets/lib/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/zanimation.js"></script>
+    <script src="assets/lib/rellax/rellax.min.js"></script>
+    <script src="assets/lib/@fontawesome/js/fontawesome-all.min.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-76729372-9');
+    </script>
+    <!-- Hotjar Tracking Code for http://markup.themewagon.com/trynirvana-->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 855955,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider-min.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>

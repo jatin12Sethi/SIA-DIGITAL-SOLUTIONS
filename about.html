@@ -104,6 +104,19 @@
                     position: relative;
                     top: 5px;
                 }
+                #aboutUsVisionH3{
+                    margin-top: 50px;
+                    position: relative;
+                    top: 15px;
+                }
+                #aboutUsVisionDiv{
+                    margin: auto !important;
+                }
+                #aboutUsMissionDiv{
+                    margin: auto !important;
+                    margin-bottom: 100px !important;
+                }
+
 
 
             }
@@ -190,28 +203,28 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav py-0 py-lg-2" style="position: relative;left: 100px;">
                             <li>
-                                <a href="expertise.html"
+                                <a href="expertise.html" id="ourExpertiseMobNav"
                                     style="position: relative;right: 55px;text-transform:capitalize;font-size:20px">Our
                                     Expertise</a>
-                                <ul class="dropdown" style="min-width: 350px;margin-left: -45px;">
+                                <ul class="dropdown" style="min-width: 350px;border-top: 3px solid black;margin-left: -45px;">
                                     <li>
                                         <a href="live3d.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Live 3D Websites</a>
                                     </li>
                                     <li>
                                         <a href="webconsulting.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Web Development</a>
                                     </li>
                                     <li>
                                         <a href="csdev.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Custom Software Development</a>
                                     </li>
                                     <li>
                                         <a href="webdesign.html"
-                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">--
+                                            style="color:#082552 !important;text-transform: capitalize;font-size: 16px;">-
                                             Web Design</a>
                                     </li>
 
@@ -247,7 +260,7 @@
                                     </ul> -->
                             </li>
                             <li>
-                                <a href="process.html"
+                                <a href="process.html" id="processLinkMobNav"
                                     style="position: relative;right: 20px;text-transform:capitalize;font-size:20px"
                                     id="nav-link-mob">Our
                                     Process</a>
@@ -489,16 +502,18 @@
         <!-- </div> -->
         <!--/.container-->
         <!-- </section> -->
-        <section class="text-center" style="margin-top: -150px;">
+        <section class="text-center" style="margin-top: -150px;@media screen and (max-width: 600px){margin-top: 0px;
+            
+        }">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
-                        <h3>Our Vision And Mission</h3>
+                        <h3 id="aboutUsVisionH3">Our Vision And Mission</h3>
 
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5">
-                    <div class="col-sm-10 col-md-6 col-lg-4 mr-5">
+                    <div id="aboutUsVisionDiv" class="col-sm-10 col-md-6 col-lg-4 mr-5">
                         <!-- <img class="radius-round w-50" src="assets/images/fitness-1.jpg" alt="" /> -->
                         <h5 class="fw-800 mt-4" style="font-size: 32px;">Vision</h5>
                         <!-- <h6 class="color-6 mt-2"> Coach</h6> -->
@@ -506,7 +521,7 @@
                             companies and become a part
                             of global digitalisation.</p>
                     </div>
-                    <div class="col-sm-10 col-md-6 col-lg-4 mt-5 mt-md-0 ml-5">
+                    <div id="aboutUsMissionDiv" class="col-sm-10 col-md-6 col-lg-4 mt-5 mt-md-0 ml-5">
                         <!-- <img class="radius-round w-50" src="assets/images/fitness-3.jpg" alt="" /> -->
                         <h5 class="fw-800 mt-4" style="font-size: 32px;">Mission</h5>
                         <!-- <h6 class="color-6 mt-2"> Coach</h6> -->

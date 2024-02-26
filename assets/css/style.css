@@ -2,6 +2,20 @@
 // Bootstrap Override
 ///////////////////////////////////*/
 
+@media (max-width: 700px) {
+  #navbarNavDropdown{
+    padding: 30px !important;
+  
+  }
+  #ourExpertiseMobNav{
+    right: 110px !important;
+  }
+  #processLinkMobNav{
+    right: 110px !important;
+  
+  }
+}
+
 
 .social-icons {
   list-style-type: none;
