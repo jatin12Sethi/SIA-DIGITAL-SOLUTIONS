@@ -29,11 +29,11 @@ styles for the number animation section
     grid-row: 1/13;
     position: relative;
     left: 80px;
-    top: 20px;
+    top: 60px;
 }
 
 #banner img {
-    height: 50%;
+    height: 70%;
     width: 40%;
     display:inline-block;
 }
@@ -225,6 +225,7 @@ styles for the number animation section
     }
 
     #p-2 {
+        padding-top: 40px;
         color: black;
         font-weight: 500;
         line-height: 25px;
