@@ -38,11 +38,11 @@ function createNavbar(parentId) {
         }
 
         .blue-color {
-            color: blue !important;
+            color: #af86bd !important;
         }
 
         .znav-white.scrolled {
-            background-color: #082552 !important;
+            background-color: #2A1A40 !important;
             box-shadow: 0 0 30px rgba(0, 0, 0) !important;
             
            
@@ -74,7 +74,8 @@ function createNavbar(parentId) {
             }
     
             .blue-color {
-                color: blue !important;
+                color: 
+                #af86bd !important;
             }
     
             .znav-white.scrolled {
